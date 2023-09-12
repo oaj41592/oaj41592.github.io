@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+}
+
+nav {
+    font-size: 21px;
+    background-color: #2B2D42;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #FFA400;
+}
+
+.intro-section {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #FA824C;
+    padding:100px;
+}
+
+.intro-section h1 {
+    font-size: 70px;
+    color: #000000;
+}
+
+.intro-section h2 {
+    font-size: 40px;
+    color: #006D77;
+}
+
+.intro-section p {
+    font-size: 30px;
+}
+
+.intro-image1 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.intro-image2 {
+    position: absolute;
+    bottom: 0.8%;
+    right: 10%;
+}
+
+.headshot-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px solid #FA824C;
+    border-radius: 1000px;
+}
+
+.about-section {
+    background-color: #B7C7E5;
+    color: #8C271E;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.about-section h2,
+.about-section p {
+    text-align: center;
+}
+
+.about-section a {
+    color: #5C7457;
+    text-decoration: none;
+    transition: color 0.3 ease;
+}
+
+.about-section a:hover {
+    color: #A13726;
+    font-weight: bold;
+}
+
+.card-one-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text:
+}
+.card-three-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.card ul {
+    display: grid;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card dl dt,
+.card dl dd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card img {
+    width: 300px;
+    border: 8px solid #FA824C;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card input[type="text"],
+.card textarea {
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.card input[type="submit"] {
+    background-color: #2B2D42;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card input[type="submit"]:hover {
+    color:#000000;
+    background-color: #FFA400;
+    font-weight: bold;
+}
+
+hr {
+    height: 15px;
+    color:#FA824C;
+    border-top: dashed 8px;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+footer {
+    background-color: #2B2D42;
+    color: #FFFFFF;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: #FFFFFF;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #FFA400;
+    font-weight: bold;
+}
